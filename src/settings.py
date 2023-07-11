@@ -36,7 +36,7 @@ CENTER_Y = WORLD_H * H_CHUNK_SIZE
 
 # camera
 ASPECT_RATIO = WIN_RES.x / WIN_RES.y
-FOV_DEG = 50
+FOV_DEG = 70
 V_FOV = glm.radians(FOV_DEG)
 H_FOV = 2 * math.atan(math.tan(V_FOV * 0.5) * ASPECT_RATIO)
 NEAR = 0.1
